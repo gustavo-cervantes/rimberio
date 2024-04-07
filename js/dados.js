@@ -2,87 +2,88 @@ var MENU = {
     "churrasco": [
         {
             "id": "ribs-brisket-and-burnt-ends",
-            "img": "./img/cardapio/churrasco/joes-kc-ribs-brisket-and-burnt-ends.6710e994980e485e6441b794717ad6fb.jpg",
-            "name": "Joe's KC BBQ",
-            "dsc": "Joe's KC Ribs, Brisket & Burnt Ends",
-            "price": 110.99
+            "img": "./img/cardapio/carnes/chuletadecordero.png",
+            "name": "Chuleta de Cordero",
+            "dsc": "",
+            "price": 170.99
         },
         {
             "id": "005-kings-carolina-oink-sampler",
-            "img": "./img/cardapio/churrasco/carolina-bbq-oink-sampler.1340b5a10cedc238cb2280306dd1d5a5.jpg",
-            "name": "Kings BBQ",
-            "dsc": "Carolina BBQ Oink Sampler",
-            "price": 89
+            "img": "./img/cardapio/carnes/dacasarimberio.png",
+            "name": "Da casa RIMBERIO®",
+            "dsc": "",
+            "price": 110.99
         },
         {
             "id": "texas-monthlys-1-bbq-brisket",
-            "img": "./img/cardapio/churrasco/texas-monthlys-1-bbq-brisket.1006a061be7acae03992e420fbca995a.jpg",
-            "name": "Snow's BBQ",
-            "dsc": "Texas Monthly's #1 BBQ Brisket",
-            "price": 199
+            "img": "./img/cardapio/carnes/estofadodecorderoconverduras.png",
+            "name": "Estofado de Cordero",
+            "dsc": "",
+            "price": 199.99
         },
         {
             "id": "whole-brisket-texas-bbq-sauce",
-            "img": "./img/cardapio/churrasco/whole-brisket-texas-barbecue-bbq-sauce.e07ee4818b20ed43d217bf67fedd41ce.jpg",
-            "name": "Franklin Barbecue",
-            "dsc": "Whole Brisket + Texas Barbecue BBQ Sauce",
-            "price": 249
+            "img": "./img/cardapio/carnes/fileamilanesa.png",
+            "name": "Filé a milanesa ",
+            "dsc": "",
+            "price": 120.99
         },
         {
             "id": "whole-texas-smoked-brisket",
-            "img": "./img/cardapio/churrasco/whole-texas-smoked-brisket.a5558a25381e271408e197936e7985d8.jpg",
-            "name": "Terry Black's Barbecue",
-            "dsc": "Whole Texas Smoked Brisket",
-            "price": 189
+            "img": "./img/cardapio/carnes/filerimberio.png",
+            "name": "Filé RIMBERIO®",
+            "dsc": "",
+            "price": 189.99
         },
         {
             "id": "mini-trinity-bbq-combo-brisket-ribs-and-links",
-            "img": "./img/cardapio/churrasco/mini-trinity-bbq-combo-brisket-ribs-and-links.245582f593bf64b23b57dfca2be18cfd.jpg",
-            "name": "Bludso's BBQ",
-            "dsc": "Mini Trinity BBQ Combo - Brisket, Ribs & Links",
-            "price": 139
+            "img": "./img/cardapio/carnes/grelhadorimberio.png",
+            "name": "Grelhado RIMBERIO®",
+            "dsc": "",
+            "price": 139.99
         },
         {
             "id": "235203-blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo",
-            "img": "./img/cardapio/churrasco/blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo.a95a3e632ae324f719738a2a5c1dff6e.jpg",
-            "name": "Blue Smoke",
-            "dsc": "Blue Smoke Baby Back Ribs + Backyard Barbecue Chicken Combo",
-            "price": 129
+            "img": "./img/cardapio/carnes/meiodia.png",
+            "name": "Meio dia",
+            "dsc": "",
+            "price": 129.99
         },
         {
             "id": "006-kings-meat-lovers-special",
-            "img": "./img/cardapio/churrasco/bbq-meat-lovers-special-for-10.36ca670fda4bfa783c2ea9165e068d26.jpg",
-            "name": "Kings BBQ",
-            "dsc": "BBQ Meat Lovers Special for 10",
-            "price": 139
+            "img": "./img/cardapio/carnes/parillaentrecot.png",
+            "name": "Parilla Entrecot RIMBERIO®",
+            "dsc": "",
+            "price": 139.99
         },
         {
             "id": "the-big-ugly-bbq-dinner-for-6",
-            "img": "./img/cardapio/churrasco/the-big-ugly-bbq-dinner-for-6.2dfae7818811adddce85cc1a910881a0.jpg",
-            "name": "Ugly Drum",
-            "dsc": "The Big Ugly BBQ Dinner for 6",
-            "price": 229
+            "img": "./img/cardapio/carnes/parmegianna.png",
+            "name": "Parmegiana",
+            "dsc": "",
+            "price": 105.99
         },
+        
         {
             "id": "17796-mighty-quinns-bbq-sampler-pack",
-            "img": "./img/cardapio/churrasco/mighty-quinns-bbq-sampler-pack.1bfe4a0665edc565756f5241bf25840e.jpg",
-            "name": "Mighty Quinn's BBQ",
-            "dsc": "Mighty Quinn's BBQ Sampler Pack",
-            "price": 169
+            "img": "./img/cardapio/carnes/picanhagrelhada.png",
+            "name": "Picanha grelhada do Chef",
+            "dsc": "",
+            "price": 169.99
         },
         {
             "id": "post-oak-smoked-half-brisket",
-            "img": "./img/cardapio/churrasco/post-oak-smoked-usda-prime-half-brisket.6f17178dde7d806670bcc73ff11762b3.jpg",
-            "name": "Southside Market & Barbeque",
-            "dsc": "Post Oak Smoked USDA Prime Half Brisket",
-            "price": 109
+            "img": "./img/cardapio/carnes/polloalmarsala.png",
+            "name": "Pollo Al Marsala",
+            "dsc": "",
+            "price": 200.99
         },
         {
             "id": "best-of-texas-bbq-combo-serves-14",
-            "img": "./img/cardapio/churrasco/best-of-texas-bbq-combo-serves-14.7ae90266335e539c67e77fed14b43029.jpg",
-            "name": "Snow's BBQ",
-            "dsc": "Best of Texas BBQ Combo - Serves 14",
-            "price": 269
+            "img": "./img/cardapio/carnes/tomawak.png",
+            "name": "Parilla Tomawak",
+            "dsc": "",
+            "price": 269.99
         }
     ],
     "burgers": [
