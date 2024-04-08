@@ -433,87 +433,87 @@ var MENU = {
     "steaks": [
         {
             "id": "california-reserve-filet-mignon-steaks-gift-box",
-            "img": "./img/cardapio/steaks/california-reserve-filet-mignon-steaks-gift-box.bf226e317aad85f47897ae7e325f790d.jpg",
-            "name": "Flannery Beef",
-            "dsc": "California Reserve Filet Mignon Steaks Gift Box",
-            "price": 129
+            "img": "./img/cardapio/frutosdomar/saladadecamarao.jpg",
+            "name": "Salada de camarão",
+            "dsc": "",
+            "price": 139.99
         },
         {
             "id": "steaks-and-cakes-date-night-dinner-for-2",
-            "img": "./img/cardapio/steaks/valentines-steaks-and-cakes-dinner-for-2.0c63dab635eed46209455dc33cd25ea8.jpg",
-            "name": "Chesapeake Bay Gourmet",
-            "dsc": "Steaks and Cakes Date Night Dinner for 2",
+            "img": "./img/cardapio/frutosdomar/camaraorimberio.jpg",
+            "name": "Camarão RIMBERIO®",
+            "dsc": "",
             "price": 129
         },
         {
             "id": "Prime-holiday-steak-sampler-for-10-12",
-            "img": "./img/cardapio/steaks/holiday-sampler-9-pack.2de75ca80282ffe9d064eb757ff7a5a1.jpg",
-            "name": "Saltbrick Prime",
-            "dsc": "Chef Matt's Steak Sampler for 10-12",
-            "price": 179
+            "img": "./img/cardapio/frutosdomar/lagosta.png",
+            "name": "Lagosta RIMBERIO®",
+            "dsc": "",
+            "price": 120.99
         },
         {
             "id": "bone-in-rib-steak",
-            "img": "./img/cardapio/steaks/bone-in-rib-steak.b13d9d4233035767605f0de9acdce1ab.jpg",
-            "name": "Old Homestead Steakhouse",
-            "dsc": "Bone-in Rib Steak",
-            "price": 159
+            "img": "./img/cardapio/frutosdomar/requinte.jpg",
+            "name": "Requinte de Camarãocom Manjericão",
+            "dsc": "",
+            "price": 159.99
         },
         {
             "id": "american-wagyu-gold-grade-top-sirloins",
-            "img": "./img/cardapio/steaks/american-wagyu-gold-grade-sirloins.040dbeb8f8e615b91fa7e513e3dc089c.jpg",
-            "name": "Snake River Farms",
-            "dsc": "American Wagyu Gold Grade Top Sirloins",
-            "price": 119
+            "img": "./img/cardapio/frutosdomar/tilapiafresca.png",
+            "name": "Tilápia fresca",
+            "dsc": "",
+            "price": 69.99
         },
         {
             "id": "2-peter-luger-steak-pack-b",
-            "img": "./img/cardapio/steaks/peter-luger-steak-pack-b.9feb0300e6be2dfecfa314f2006a2183.jpg",
-            "name": "Peter Luger Steak House",
-            "dsc": "Peter Luger Porterhouse Steaks",
-            "price": 215.95
+            "img": "./img/cardapio/frutosdomar/garoupa-da-terra.jpg",
+            "name": "Garoupa da terra",
+            "dsc": "",
+            "price": 99.99
         },
         {
             "id": "ribeye-prime-steak-gift-box",
-            "img": "./img/cardapio/steaks/ribeye-prime-steak-gift-box.e74cb016baabbb2df73861de8150f29c.jpg",
-            "name": "Churchill's Steakhouse",
-            "dsc": "Ribeye Prime Steak Gift Box",
-            "price": 229
+            "img": "./img/cardapio/frutosdomar/isca.png",
+            "name": "Iscas de pescada",
+            "dsc": "",
+            "price": 59.99
         },
         {
             "id": "dry-aged-usda-prime-black-angus-porterhouse-steak-2-pack",
-            "img": "./img/cardapio/steaks/usda-prime-black-angus-filet-mignon-barrel-cut.6ee213799e7d1848763d12edca18e3b1.jpg",
-            "name": "Pat LaFrieda Meats",
-            "dsc": "Dry-Aged USDA Prime Black Angus Porterhouse Steak - 2 Pack",
-            "price": 96.7
+            "img": "./img/cardapio/frutosdomar/lula.png",
+            "name": "Iscas de lula",
+            "dsc": "",
+            "price": 145.99
         },
         {
             "id": "california-reserve-ribeye-steak",
-            "img": "./img/cardapio/steaks/california-reserve-ribeye-steak-12-oz.d367c5ae72dd9f89e170662104bef4fc.jpg",
-            "name": "Flannery Beef",
+            "img": "./img/cardapio/frutosdomar/pescada.png",
+            "name": "Pescada",
             "dsc": "California Reserve Ribeye Steak - 12 oz",
-            "price": 32
+            "price": 69.99
         },
         {
             "id": "dry-aged-boneless-ribeye-steak-dinner-kit-for-4",
-            "img": "./img/cardapio/steaks/dry-aged-boneless-ribeye-steak-dinner-for-4.81c3bdc05fe6bdb2c2214709863120e0.jpg",
-            "name": "Chef Francis Mallmann",
+            "img": "./img/cardapio/frutosdomar/charlesdeluvia.png",
+            "name": "Charles de luvia",
             "dsc": "Dry-Aged Boneless Ribeye Steak Dinner Kit for 4",
-            "price": 225
+            "price": 179.99
         },
         {
             "id": "california-reserve-filet-mignon-steak",
-            "img": "./img/cardapio/steaks/california-reserve-filet-mignon-steak.ff15071964ec8141d30c2ba05fb117e0.jpg",
-            "name": "Flannery Beef",
+            "img": "./img/cardapio/frutosdomar/FrutosdoMarAllaMarina.jpg",
+            "name": "Frutos do Mar AllaMarina",
             "dsc": "California Reserve Filet Mignon Steak",
-            "price": 22
+            "price": 170.99
         },
         {
             "id": "mesquite-smoked-peppered-beef-tenderloin",
-            "img": "./img/cardapio/steaks/mesquite-smoked-peppered-beef-tenderloin.5c314418a1f75c7057eed686e2fad46f.jpg",
-            "name": "Perini Ranch Steakhouse",
+            "img": "./img/cardapio/frutosdomar/tabua.png",
+            "name": "Fundo do mar RIMBERIO®",
             "dsc": "Mesquite Smoked Peppered Beef Tenderloin",
-            "price": 165
+            "price": 165.99
         }
     ]
 }
