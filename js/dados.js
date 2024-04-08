@@ -91,84 +91,84 @@ var MENU = {
             "id": "the-gramercy-tavern-burger-4-pack",
             "img": "./img/cardapio/burguers/classicorimberio.png",
             "name": "Classico RIMBERIO®",
-            "dsc": "The Gramercy Tavern Burger - 4 Pack",
+            "dsc": "",
             "price": 43.99
         },
         {
             "id": "shake-shack-shackburger-8-pack",
             "img": "./img/cardapio/burguers/purocheddar.png",
             "name": "Puro cheddar",
-            "dsc": "Shake Shack ShackBurger® - 8 Pack",
+            "dsc": "",
             "price": 45.99
         },
         {
             "id": "gotts-cheeseburger-kit-for-4",
             "img": "./img/cardapio/burguers/monstrao.png",
             "name": "Monstrão",
-            "dsc": "Gott's Complete Cheeseburger Kit for 4",
+            "dsc": "",
             "price": 55.99
         },
         {
             "id": "le-big-matt-kit-for-6",
             "img": "./img/cardapio/burguers/dopapai.png",
             "name": "Do papai",
-            "dsc": "Le Big Matt Burger Kit for 6",
+            "dsc": "",
             "price": 47.99
         },
         {
             "id": "shake-shack-shackburger-16-pack",
-            "img": "./img/cardapio/burguers/americano.jpg",
+            "img": "./img/cardapio/burguers/americano.png",
             "name": "Americano",
-            "dsc": "Shake Shack Shackburger® - 16 Pack",
+            "dsc": "",
             "price": 44.59
         },
         {
             "id": "21-usda-prime-burgers-pack-of-18-8oz-each",
             "img": "./img/cardapio/burguers/vegetariano.png",
             "name": "Vegetariano RIMBERIO®",
-            "dsc": "USDA Prime Burgers - Pack of 18 (8oz each)",
+            "dsc": "",
             "price": 41.99
         },
         {
             "id": "double-stack-burger-kit-for-4",
             "img": "./img/cardapio/burguers/quartafeira.jpg",
             "name": "Quarta-Feira",
-            "dsc": "Double Stack Burger Kit for 4",
+            "dsc": "",
             "price": 39.99
         },
         {
             "id": "goldbelly-burger-bash-pack",
             "img": "./img/cardapio/burguers/texas.png",
             "name": "Texas",
-            "dsc": "Goldbelly \"Burger Bash\" Pack",
+            "dsc": "",
             "price": 50.99
         },
         {
             "id": "burger-au-poivre-kit-4-pack",
             "img": "./img/cardapio/burguers/miniburg.jpg",
             "name": "MiniRIMBERIO®",
-            "dsc": "Burger Au Poivre Kit - 4 Pack",
+            "dsc": "",
             "price": 43.99
         },
         {
             "id": "goldbelly-burger-blend-4-lbs",
             "img": "./img/cardapio/burguers/medianera.jpg",
             "name": "Medianera",
-            "dsc": "Goldbelly Burger Blend - 4 lbs.",
+            "dsc": "",
             "price": 46.00
         },
         {
             "id": "gotts-complete-cheeseburger-kit-for-8",
             "img": "./img/cardapio/burguers/duploaustraliano.jpg",
             "name": "Duplo Australiano",
-            "dsc": "Gott's Complete Cheeseburger Kit for 8",
+            "dsc": "",
             "price": 51.99
         },
         {
             "id": "gramercy-tavern-burger-kielbasa-combo",
             "img": "./img/cardapio/burguers/hort.jpg",
             "name": "OrgânicoRIMBERIO®",
-            "dsc": "Gramercy Tavern Burger + Kielbasa Combo",
+            "dsc": "",
             "price": 36.99
         }
     ],
