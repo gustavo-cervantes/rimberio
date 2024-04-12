@@ -18,9 +18,12 @@ $(document).ready(function () {
 var cardapio = {};
 
 var MEU_CARRINHO = [];
+
 var MEU_ENDERECO = null;
 
 var VALOR_CARRINHO = 0;
+
+var VALOR_ENTREGA = 7.5;
 
 cardapio.eventos = {
 
@@ -33,6 +36,8 @@ cardapio.eventos = {
 }
 
 cardapio.metodos = {
+
+    // obtem a lista de itens do cardápio, e cria/configura os botões dos depoimentos.
     abrirDepoimento: (i) => {
         $("#depoimentos .depoimento").addClass("hidden")
         $($("#depoimentos .depoimento").get(i)).removeClass("hidden")
@@ -41,10 +46,6 @@ cardapio.metodos = {
         $($("#depoimentos .actions > .btn-depoimento").get(i)).addClass("active")
     },
 
-    carregarBotaoLigar: () => {},
-    carregarBotaoReserva: () => {},
-
-    // obtem a lista de itens do cardápio
     obterItensCardapio: (categoria = 'burgers', vermais = false) => {
 
         var filtro = MENU[categoria];
@@ -154,7 +155,7 @@ cardapio.metodos = {
 
     },
 
-    // atualiza a badge de totais dos botões "Meu carrinho"
+    // atualiza o badge de totais dos botões "Meu carrinho"
     atualizarBadgeTotal: () => {
 
         var total = 0;
@@ -176,22 +177,23 @@ cardapio.metodos = {
 
     },
 
+    // abrir a modal de carrinho
     abrirCarrinho: (abrir) => {
 
-        if(abrir) {
-            $("#modalCarrinho").removeClass('hidden')
-            cardapio.metodos.carregarEtapa();
+        if (abrir) {
+            $("#modalCarrinho").removeClass('hidden');
+            cardapio.metodos.carregarCarrinho();
         }
         else {
-            $("#modalCarrinho").addClass('hidden')
+            $("#modalCarrinho").addClass('hidden');
         }
 
     },
 
-    // altera os textos e exibe os botões de etapas do carrinho
+    // altera os texto e exibe os botões das etapas
     carregarEtapa: (etapa) => {
 
-        if(etapa == 1 ) {
+        if (etapa == 1) {
             $("#lblTituloEtapa").text('Seu carrinho:');
             $("#itensCarrinho").removeClass('hidden');
             $("#localEntrega").addClass('hidden');
@@ -200,14 +202,13 @@ cardapio.metodos = {
             $(".etapa").removeClass('active');
             $(".etapa1").addClass('active');
 
-            $("btnEtapaPedido").removeClass('hidden');
-            $("btnEtapaEndereco").addClass('hidden');
-            $("btnEtapaResumo").addClass('hidden');
-            $("btnVoltar").addClass('hidden');
-
+            $("#btnEtapaPedido").removeClass('hidden');
+            $("#btnEtapaEndereco").addClass('hidden');
+            $("#btnEtapaResumo").addClass('hidden');
+            $("#btnVoltar").addClass('hidden');
         }
-
-        else if (etapa == 2) {
+        
+        if (etapa == 2) {
             $("#lblTituloEtapa").text('Endereço de entrega:');
             $("#itensCarrinho").addClass('hidden');
             $("#localEntrega").removeClass('hidden');
@@ -217,15 +218,14 @@ cardapio.metodos = {
             $(".etapa1").addClass('active');
             $(".etapa2").addClass('active');
 
-            $("btnEtapaPedido").addClass('hidden');
-            $("btnEtapaEndereco").removeClass('hidden');
-            $("btnEtapaResumo").addClass('hidden');
-            $("btnVoltar").removeClass('hidden');
-        
+            $("#btnEtapaPedido").addClass('hidden');
+            $("#btnEtapaEndereco").removeClass('hidden');
+            $("#btnEtapaResumo").addClass('hidden');
+            $("#btnVoltar").removeClass('hidden');
         }
-         
+
         if (etapa == 3) {
-            $("#lblTituloEtapa").text('Resumo do seu pedido:');
+            $("#lblTituloEtapa").text('Resumo do pedido:');
             $("#itensCarrinho").addClass('hidden');
             $("#localEntrega").addClass('hidden');
             $("#resumoCarrinho").removeClass('hidden');
@@ -235,16 +235,15 @@ cardapio.metodos = {
             $(".etapa2").addClass('active');
             $(".etapa3").addClass('active');
 
-            $("btnEtapaPedido").addClass('hidden');
-            $("btnEtapaEndereco").addClass('hidden');
-            $("btnEtapaResumo").removeClass('hidden');
-            $("btnVoltar").removeClass('hidden');
-        
+            $("#btnEtapaPedido").addClass('hidden');
+            $("#btnEtapaEndereco").addClass('hidden');
+            $("#btnEtapaResumo").removeClass('hidden');
+            $("#btnVoltar").removeClass('hidden');
         }
 
     },
 
-    //botao de voltar etapa
+    // botão de voltar etapa
     voltarEtapa: () => {
 
         let etapa = $(".etapa.active").length;
@@ -252,7 +251,7 @@ cardapio.metodos = {
 
     },
 
-    //carrega a lista de itens do pedido do cliente
+    // carrega a lista de itens do carrinho
     carregarCarrinho: () => {
 
         cardapio.metodos.carregarEtapa(1);
@@ -286,8 +285,7 @@ cardapio.metodos = {
 
     },
 
-
-    // diminui a quantidade do produto desejado no carrinho
+    // diminuir quantidade do item no carrinho
     diminuirQuantidadeCarrinho: (id) => {
 
         let qntdAtual = parseInt($("#qntd-carrinho-" + id).text());
@@ -302,31 +300,64 @@ cardapio.metodos = {
 
     },
 
-    //diminui a quantidade do produto desejado no carrinho
-
+    // aumentar quantidade do item no carrinho
     aumentarQuantidadeCarrinho: (id) => {
+
+        let qntdAtual = parseInt($("#qntd-carrinho-" + id).text());
+        $("#qntd-carrinho-" + id).text(qntdAtual + 1);
+        cardapio.metodos.atualizarCarrinho(id, qntdAtual + 1);
+
+    },
+
+    // botão remover item do carrinho
+    removerItemCarrinho: (id) => {
+
+        MEU_CARRINHO = $.grep(MEU_CARRINHO, (e, i) => { return e.id != id });
+        cardapio.metodos.carregarCarrinho();
+
+        // atualiza o botão carrinho com a quantidade atualizada
+        cardapio.metodos.atualizarBadgeTotal();
         
     },
 
-    removerItemCarrinho: (id) => {
-
-    },
-
-    //atualiza o carrinho com a quantidade atual
+    // atualiza o carrinho com a quantidade atual
     atualizarCarrinho: (id, qntd) => {
 
         let objIndex = MEU_CARRINHO.findIndex((obj => obj.id == id));
         MEU_CARRINHO[objIndex].qntd = qntd;
 
-        // atualzia o botao carrinho com a quantidade já atualziada
+        // atualiza o botão carrinho com a quantidade atualizada
         cardapio.metodos.atualizarBadgeTotal();
+
+        // atualiza os valores (R$) totais do carrinho
+        cardapio.metodos.carregarValores();
 
     },
 
+    // carrega os valores de SubTotal, Entrega e Total
+    carregarValores: () => {
 
+        VALOR_CARRINHO = 0;
 
+        $("#lblSubTotal").text('R$ 0,00');
+        $("#lblValorEntrega").text('+ R$ 0,00');
+        $("#lblValorTotal").text('R$ 0,00');
 
-    // parte das mensagens
+        $.each(MEU_CARRINHO, (i, e) => {
+
+            VALOR_CARRINHO += parseFloat(e.price * e.qntd);
+
+            if ((i + 1) == MEU_CARRINHO.length) {
+                $("#lblSubTotal").text(`R$ ${VALOR_CARRINHO.toFixed(2).replace('.', ',')}`);
+                $("#lblValorEntrega").text(`+ R$ ${VALOR_ENTREGA.toFixed(2).replace('.', ',')}`);
+                $("#lblValorTotal").text(`R$ ${(VALOR_CARRINHO + VALOR_ENTREGA).toFixed(2).replace('.', ',')}`);
+            }
+
+        })
+
+    },
+
+    // mensagens
     mensagem: (texto, cor = 'red', tempo = 3500) => {
 
         let id = Math.floor(Date.now() * Math.random()).toString();
@@ -388,6 +419,4 @@ cardapio.templates = {
             </div>
         </div>
     `,
-
-
 }
