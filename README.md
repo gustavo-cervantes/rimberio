@@ -38,7 +38,9 @@ Integração com WhatsApp: Os clientes podem entrar em contato conosco de forma 
 
 O cardápio online da RIMBERIO® é o resultado da integração harmoniosa de diversas tecnologias e técnicas de design. Com um layout responsivo, interatividade aprimorada e elementos visuais atrativos, nosso site proporciona uma experiência única aos usuários, incentivando a exploração e facilitando o acesso às informações sobre nossos produtos.
 
+----------------------------------------------------------
 Gustavo da Silveira Roldão © Todos os direitos reservados
+----------------------------------------------------------
 
 ![image](https://github.com/gustavodsroldao/rimberio/assets/153242164/8ee9e8f0-ca73-484b-aec2-509dacf7f75b)
 ![image](https://github.com/gustavodsroldao/rimberio/assets/153242164/2e96f3e9-b5d1-4e65-a2cb-f9e2ada099b7)
@@ -48,6 +50,10 @@ Gustavo da Silveira Roldão © Todos os direitos reservados
 ![image](https://github.com/gustavodsroldao/rimberio/assets/153242164/26e3a356-1897-4793-9024-fd9cced6c570)
 ![image](https://github.com/gustavodsroldao/rimberio/assets/153242164/246b7726-6562-455d-870c-ab2aa1da84e3)
 ![image](https://github.com/gustavodsroldao/rimberio/assets/153242164/12b676ae-1914-4e3d-8b83-456b218490e8)
+![image](https://github.com/gustavodsroldao/rimberio/assets/153242164/0116dfa7-1731-4d02-a907-afca94a2d822)
+![image](https://github.com/gustavodsroldao/rimberio/assets/153242164/d542d42a-f186-4e56-b661-5e18b0678702)
+
+
 
 
 
