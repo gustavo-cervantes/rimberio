@@ -505,7 +505,7 @@ cardapio.metodos = {
 
         if (MEU_CARRINHO.length > 0 && MEU_ENDERECO != null) {
 
-            var texto  = 'Olá gostaria de fazer um pedido:';
+            var texto  = 'Olá, gostaria de fazer um pedido:';
             texto += `\n*Itens do pedido:*\n\n\${itens}`;
             texto += '\n*Endereço de entrega:*';
             texto += `\n${MEU_ENDERECO.endereco}, ${MEU_ENDERECO.numero}, ${MEU_ENDERECO.bairro}`;
