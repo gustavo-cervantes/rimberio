@@ -16,7 +16,7 @@ Animate.css e WOW.js: Para adicionar animações aos elementos da página, integ
 
 Font Awesome: Os ícones do Font Awesome foram utilizados para complementar o design do site, adicionando um toque final de estilo e sofisticação.
 
-API do CEP: Implementei a  API do VIACEP, oferecendo aos usuários/clientes a possibilidade de preencher automaticamente seus dados de endereço ao realizar pedidos. Isso simplifica o processo de compra e melhora a experiência do usuário.
+WebSeevice do CEP: Implementei o WS do VIACEP, oferecendo aos usuários/clientes a possibilidade de preencher automaticamente seus dados de endereço ao realizar pedidos. Isso simplifica o processo de compra e melhora a experiência do usuário.
 
 Integração com WhatsApp: Implementei também a integração com o WhatsApp para facilitar o contato direto dos usuários/clientes conosco. Com apenas um clique, os clientes podem iniciar uma conversa no WhatsApp para fazer perguntas, realizar pedidos ou fornecer feedback.
 
