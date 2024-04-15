@@ -1,5 +1,5 @@
 
-/* Desktop (col-lg) 992px+ */
+/* Desktops/Notebooks (col-lg) 992px+ (ou mais.) */
 @media (min-width: 992px) {
 
 }
@@ -31,7 +31,7 @@
     }
 
     .navbar-collapse {
-        background-color: var(--color-secondary);
+        background-color: var(--color-reservas);
         padding: 20px;
         text-align: center;
         border-radius: 40px;
@@ -62,7 +62,7 @@
         font-size: 18px;
     }
 
-    .btn-yellow, .btn-white {
+    .btn-red, .btn-white {
         padding: 13px 23px;
         font-size: 18px;
     }
@@ -107,6 +107,9 @@
         justify-content: center;
         align-items: start;
     }
+
+
+    /*  imagens do cardapio   */
 
     .card-item .img-produto img {
         width: 80px;
